@@ -55,12 +55,12 @@ from transformers import Blip2Processor, Blip2ForConditionalGeneration
 processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
 model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")
 # Note: The BLIP-2 model (blip2-opt-2.7b) is significantly more powerful but requires approximately 10GB of space.
-
+```
 ## 📋 Requirements & Installation
 To run this notebook, ensure you have the following libraries installed:
-
+```python
 pip install -r requirements.txt
-
+```
 ## Running the Project
 Initialize: Run the setup cells to load the Salesforce/blip-image-captioning-base model.
 
