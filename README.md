@@ -56,3 +56,4 @@ from transformers import Blip2Processor, Blip2ForConditionalGeneration
 # Load the pretrained processor and model
 processor = Blip2Processor.from_pretrained("Salesforce/blip2-opt-2.7b")
 model = Blip2ForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")
+Note: The BLIP-2 model (blip2-opt-2.7b) is significantly more powerful but requires approximately 10GB of space.
