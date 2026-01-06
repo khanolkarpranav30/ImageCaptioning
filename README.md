@@ -1,5 +1,3 @@
-# ImageCaptioning
-Image Captioning using Hugging Face Transformers
 # Image Captioning with BLIP
 
 This project leverages state-of-the-art Deep Learning models to automatically generate descriptive text for images. By utilizing the **BLIP (Bootstrapping Language-Image Pre-training)** model from Salesforce, the application can "see" an image and provide a human-readable caption.
